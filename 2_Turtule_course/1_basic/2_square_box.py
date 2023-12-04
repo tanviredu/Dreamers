@@ -1,0 +1,15 @@
+from turtle import *
+
+color("green")
+fillcolor("red")
+begin_fill()
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+hideturtle()
+end_fill()
+done()
