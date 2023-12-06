@@ -132,8 +132,8 @@ while True:
     ##  because its distance is already 20
     ##  so we do not consider the first first element
     ## thats why we start for 1 and not 0
-    for item in range(1,len(snake_body)-1):
-        if head.distance(snake_body[item]) < 20:
+    for item in snake_body[1:]:
+        if head.distance(item) < 20:
             time.sleep(1)
             head.goto(0,0)
             head.direction = "Right"
@@ -143,7 +143,7 @@ while True:
             ## out of the frame
             for bodyelem in snake_body:
                 bodyelem.goto(1000,1000)
-            snake_body = []
+            snake_body.clear()
     
     time.sleep(delay)
     
