@@ -1,5 +1,4 @@
 from turtle import *
-bgcolor("yellow")
 color("magenta")
 
 begin_fill()

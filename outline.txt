@@ -1,0 +1,19 @@
+1)  A brief word about Programming language?
+2)  Why Learning Programming languageb is important? 
+3)  A brief about What can you do with a programming language?
+4)  Answer About About Some question is there any
+5)  Show Them The process About the signing process In the Replit.com
+6)  Assist every one in Signing in the Replit.com
+7)  Show Them about the print() statement
+8)  explain what print statement does
+8)  Explain writing name number in the print statement
+9)  Intoduce them with Turtle
+10) Draw a circle with the turtle
+11) Assit every one to draw a circle
+12) write a Line with the turtle
+13) show them how to change the color of the line
+14) how to fill color in a circle 
+15) SHow them about the forward() and back() method with turtle
+16) Show Them the pensize() method.
+
+Ending Remarks
