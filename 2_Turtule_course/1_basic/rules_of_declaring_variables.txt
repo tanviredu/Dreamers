@@ -1,0 +1,16 @@
+Valid Characters:
+
+Variable names can contain letters (a-z, A-Z), digits (0-9), and the underscore (_).
+They cannot start with a digit.
+Case-Sensitivity:
+
+Python is case-sensitive. For example, myVar and myvar are considered different variables.
+Reserved Words:
+
+You cannot use Python reserved words as variable names. Examples of reserved words include def ,True , is, False, elif,if, ,for, from, import, and, else, while, class, etc.
+Underscore as the First Character:
+
+While technically allowed, it's a convention to avoid using a leading underscore as the first character of a variable name (e.g., _myvar). This is often reserved for special cases in the language.
+Underscores in Variable Names:
+
+Using underscores to separate words in a variable name is a common convention in Python (e.g., my_variable), following the snake_case naming convention
