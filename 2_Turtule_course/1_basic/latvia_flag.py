@@ -1,7 +1,4 @@
 from turtle import *
-
-color("white")
-
 penup()
 goto(-50,0)
 pendown()
@@ -13,9 +10,8 @@ for item in range(2):
   forward(50)
   left(90)
 end_fill()
-
 penup()
-goto(-50,-20)
+goto(-50,50)
 pendown()
 fillcolor("white")
 begin_fill()
@@ -25,10 +21,8 @@ for item in range(2):
   forward(20)
   left(90)
 end_fill()
-
-
 penup()
-goto(-50,-70)
+goto(-50,70)
 pendown()
 fillcolor("maroon")
 begin_fill()
@@ -38,3 +32,9 @@ for item in range(2):
   forward(50)
   left(90)
 end_fill()
+
+hideturtle()
+
+
+  
+  
