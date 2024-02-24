@@ -81,7 +81,7 @@ ratib['age'] = 13
 #print(ratib['city'])
 #print(ratib['age'])
 
-
+""
 #10,20,30,40,50
 zarif_score = {
   "name":"Zarif Zawad",
