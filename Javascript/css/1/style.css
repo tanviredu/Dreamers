@@ -37,6 +37,13 @@ p{
 
 /* select by  */
 
+h1{
+	display: inline;
+	color: white;
+/*	border: 2px solid white;*/
+	border: 2px dotted white;
+}
+
 h3{
 	color: rgb(232, 223, 223);
 }

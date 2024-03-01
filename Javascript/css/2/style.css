@@ -1,0 +1,16 @@
+body{
+	background-color: black;
+}
+
+.header{
+	
+}
+
+.header a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
