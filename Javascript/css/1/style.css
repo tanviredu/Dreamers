@@ -1,0 +1,51 @@
+/* select by tag */
+/*body{*/
+/*	background-color: lightblue;*/
+/*	border: 2px solid black;*/
+/*}*/
+
+
+/*body{*/
+/*	background-color: lightblue;*/
+/*}*/
+/*
+h1{
+
+}
+
+h2{
+	color:red;
+}
+
+p{
+	color: yellow;
+}
+
+
+#secondparagraph{
+	color:darkblue;
+}
+
+.yellow{
+	border: 2px solid red;
+}
+*/
+/*you can do that like that too*/
+/*h1,h2,p{
+	
+}*/
+
+/* select by  */
+
+h3{
+	color: rgb(232, 223, 223);
+}
+
+body{
+	background: url("./img/background_image.jpg");
+/*	background-size: 1300px 750px;*/
+/*	background-size: auto;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
