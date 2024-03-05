@@ -1,0 +1,60 @@
+body{
+/*	background-image: url("../1/img/background_image.jpg");*/
+/*	background-size: auto ;*/
+/*	background-repeat: no-repeat;*/
+/*	background-attachment: fixed;*/
+
+}
+
+h2{
+	display: inline;
+	color: white;
+	border: 3px solid white;
+}
+
+#mytext{
+	color: black;
+	border: 2px solid lightblue;
+
+}
+
+#header a{
+	border: 2px solid white;
+	display: inline-block;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+li{
+	display: inline;
+	margin-right: 20px;
+}
+
+li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.navbar{
+/*	max-width: 900px;*/
+/*	width:50%	 it will take the 50% of the block element */
+/*	max-width: 500px; it will try to make 500px and if it cant it will shirnk*/
+	margin: 10px;
+	padding: 20px;
+}
