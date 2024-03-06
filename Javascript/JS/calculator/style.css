@@ -1,0 +1,78 @@
+.outerbox{
+/*  width: 500px;*/
+  width: 100%;
+}
+
+
+.calculator{
+  background-color: lightgray;
+  width: 800px;
+  margin:60px auto; 
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+
+ /* what auto does 
+  1) you will get a 60px margin from top and bottom
+  2) and then you will 
+  the box will have a 60px margin on the top and bottom, and the browser will automatically calculate the left and right margins to center the box horizontally within its containing block (usually the browser window or a parent element).
+  outer box e jodi 500px ditam then it margin 60px auto will center the item within 500px
+   */
+}
+
+.display{
+  height:20px;
+  padding: 10px;
+  font-size :1.5em;
+  text-align: right;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom:10px;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+/*Here's what each part means:
+
+1fr: This is a unit of measurement in CSS Grid layout. It stands for "fractional unit" and represents a fraction of the available space in the grid container. In this case, it means that each column will take up an equal share of the available space.
+repeat(4, 1fr): This repeats the pattern 1fr four times, effectively creating four columns with equal width within the grid container.
+So, the grid-template-columns: repeat(4, 1fr); declaration creates a grid layout with four columns of equal width. This is a convenient shorthand for defining a grid layout with a specified number of equally sized columns.
+*/
+
+
+
+
+
+.btn{
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  border: 1px solid red; 
+  /* border dile ar click kora jabe na . so ei functionality ante  
+    amake cursor:pointer dite hobe
+  */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: red;
+  color: white;
+}
+
+.result{
+  grid-column: span 5;
+  grid-row: 5;
+  padding: 5px;
+  margin: 8px;
+  font-size: 30px;
+  border: 3px solid red;
+  background-color: red;
+  cursor: pointer; 
+}
