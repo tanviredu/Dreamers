@@ -1,0 +1,29 @@
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tab {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#ftab {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#stab {
+    text-indent: 50px;
+    text-align: center;
+}
+
+#ttab {
+    text-indent: 50px;
+    text-align: justify;
+    text-decoration: underline;
+    line-height: 50px;
+}

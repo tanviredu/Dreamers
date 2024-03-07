@@ -1,0 +1,46 @@
+.tabs {
+	width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two containers per row */
+    grid-gap: 10px; /* Adjust the gap between containers */
+    align-content: start; /* Align each row's content to the start */
+}
+
+.tab {
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#ftab {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1cm;
+    font-family: monospace;
+}
+
+#stab {
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.heading{
+	text-align: center;
+	margin: 30px;
+	padding: 30px;
+	
+
+}
+
+.heading h3{
+	display: inline;
+	border: 1px solid black;
+	font-size: 40px;
+	padding: 30px;
+	text-shadow: 10px 10px blue;
+	font-family: monospace;
+
+}

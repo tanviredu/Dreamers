@@ -1,0 +1,20 @@
+.outer-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.inner-container{
+	max-width: 500px;
+	background-color: lightgray;
+	border: 15px solid green;
+	padding: 20px;
+	margin: 40px;
+
+	/* amra jokhin outline korbo sekhane 
+		outline hobe but mone rakhte hobe je
+		margin calculation hobe border er sathe 
+		outline er sathe na
+		*/
+	outline: 15px solid red;
+}
