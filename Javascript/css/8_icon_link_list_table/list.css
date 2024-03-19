@@ -1,0 +1,59 @@
+.mydiv{
+	width: 100%;
+	margin-top: 40px;
+}
+
+.mydivcontainer{
+	max-width: 500px;
+	margin: auto;
+}
+
+.mydivcontainer{
+	border: 5px solid green;
+	padding: 20px;
+	background-color: lightgrey;
+}
+
+
+
+.listclass{
+	max-width: 50%;
+	margin: auto;
+	background-color: lightskyblue;
+	padding: 20px;
+	margin-top: 40px;
+
+	/* if you want to hide that section	*/
+	/* it will completely remove it and also remove the space
+		everything will be removed like it never exists
+		*/
+	/*	display: none; */
+
+	/* but if you want to keep the it and just remove the main item 
+		you can use the visibility
+
+	*/
+
+	visibility: hidden;
+	/* it will keep the space and background
+		just remove the text
+	
+	*/
+}
+
+.listclass ol li{
+	color: red;
+	font-size: 20px;
+	padding: 10px;
+	margin:  10px;
+	background-color: lightcoral;
+}
+
+.mydisplay{
+	max-width: 50%;
+	padding: 20px;
+	border: 5px solid red;
+	margin: auto;
+	
+
+}
