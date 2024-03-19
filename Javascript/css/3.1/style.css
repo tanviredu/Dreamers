@@ -1,0 +1,41 @@
+.outerdiv{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.innerdiv{
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	border: 5px solid black;
+	padding: 20px;
+}
+
+
+.oot{
+	padding-top: 20px;
+}
+
+#innerlink{
+	width: 150px;
+	padding: 20px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	background-color: pink;
+	border: 2px solid blue;
+	border-radius: 5px;
+	font-size:  15px;
+	text-decoration: none;
+	color: black;
+
+
+
+}
+
+
+#innerlink:hover{
+	color: white;
+	background-color: black;
+}
