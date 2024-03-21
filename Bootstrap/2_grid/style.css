@@ -1,0 +1,23 @@
+
+/* padding in bootstrap is done by p-[1-5] */
+/* it is done by a unit by rem */
+/* i rem = 16px  */
+
+
+
+.col{
+	border: 3px solid black;
+	background-color: lightgray;
+}
+
+.col-8{
+	border: 3px solid red;
+	background-color: lightblue;
+	
+}
+
+.col-4{
+	border: 3px solid red;
+	background-color: lightblue;
+	
+}
