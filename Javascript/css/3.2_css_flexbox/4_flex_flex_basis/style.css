@@ -1,0 +1,16 @@
+.flexcontainer{
+	display: flex;	
+}
+
+.flexitem{
+	border: 1px solid black;
+	padding: 40px;
+	width: 4em;
+	margin: 4px;
+	flex-grow: 1;
+	background-color: yellowgreen;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+
+}
