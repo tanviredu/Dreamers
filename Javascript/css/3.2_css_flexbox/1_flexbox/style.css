@@ -1,0 +1,73 @@
+/* remember there must be two container */
+/* one is the main container which hold all the item */
+/* and inside the container there will be item  */
+
+
+
+
+/* by default flex go from left to right */
+.flexcontainer1{
+    /* normally the flex item is block level element  */
+    /*    */
+	display: flex;
+	/* reverse the item from third to first	*/
+	flex-direction: row-reverse;
+	border: 1px solid red;
+}
+
+
+
+.flexitem1{
+	border: 5px solid black;
+	padding: 20px;
+	margin: 5px;
+	background-color: lightcyan;
+}
+
+
+/* flex-inline will not take the total block element */
+/* if we reverse it within the space */
+.flexcontainer2{
+	display: inline-flex;
+	flex-direction: row-reverse;
+	border: 1px solid red;
+}
+
+
+.flexitem2{
+	border: 5px solid black;
+	padding: 20px;
+	margin: 5px;
+	background-color: yellow;
+}
+
+
+.flexcontainer3{
+	display: inline-flex;
+	flex-direction: column;
+	border: 1px solid red;
+}
+
+
+.flexitem3{
+	border: 5px solid black;
+	padding: 20px;
+	margin: 5px;
+	background-color: yellow;
+}
+
+
+.flexcontainer4{
+	display: inline-flex;
+	flex-direction: column-reverse;
+	border: 1px solid red;
+}
+
+.flexitem4{
+	border: 5px solid black;
+	padding: 20px;
+	margin: 5px;
+	background-color: lightgreen;
+}
+
+

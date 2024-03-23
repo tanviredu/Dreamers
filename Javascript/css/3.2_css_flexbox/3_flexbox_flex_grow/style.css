@@ -1,0 +1,31 @@
+
+/* flex-grow is a number that shows how much it will grow 
+   depending on the exapnd of the screen
+ 
+   if we give any specfic flex item another value suppose 2
+   it will grow twice based on the examsion of the other 
+   container
+
+ */
+
+
+.flexcontainer{
+	display: flex;
+}
+
+.flexitem{
+	padding: 30px;
+	margin:3px;
+	border: 4px solid black;
+	background-color: cyan;
+	flex-grow: 1;
+
+}
+
+#sitem{
+	flex-grow: 2;
+}
+
+#fourthitem{
+	flex-grow: 4;
+}

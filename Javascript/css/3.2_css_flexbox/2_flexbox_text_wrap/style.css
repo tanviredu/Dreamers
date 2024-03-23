@@ -1,0 +1,58 @@
+/* bellow this configuration will cause overflow */
+/* because the flex container has a fixed width and height */
+/* and inside there is 7 flexitem */
+
+/* but remember this wrap ain't gonna make this thing responsive  */
+/* this something we discuss in the 3 class which is flex-grow  */
+
+/*.flexcontainer{
+	display: inline-flex;
+	border: 1px solid black;
+	width: 55%;
+	height: 30em;
+}
+
+.flexitem{
+	margin-right: 10px;
+	padding: 30px;
+	border: 5px solid red;
+	background-color: yellow;
+
+}
+*/
+
+/* to fix this and wrap the item inside the fixed size we use wrap */
+
+
+.flexcontainer{
+	display: inline-flex;
+	border: 3px solid black;
+	width: 55%;
+	height: 30em;
+	/*	flex-wrap: wrap;*/
+	/* flex-wrap: wrap-reverse; */
+	
+
+	/*flex-direction: column;
+	flex-wrap: wrap;*/
+
+	/*flex-direction: column-reverse;
+	flex-wrap: wrap-reverse;*/
+
+	/* flex direction and flex-wrap both can be done 
+	   in one command which is flex-flow
+	*/
+	flex-flow: column wrap;
+
+
+}
+
+.flexitem{
+	margin: 10px;
+	padding: 30px;
+	border: 5px solid red;
+	background-color: yellow;
+}
+
+
+
