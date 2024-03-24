@@ -1,0 +1,40 @@
+body{
+	font-family: calibri;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 50px 50px 50px 50px;
+	justify-content: center;
+	grid-row-gap: 5px;
+	grid-column-gap: 5px;
+}
+
+
+button{
+	height: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	background: #222540;
+	color: white;
+}
+
+button:hover{
+	height: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	background: #2c4d43;
+	color: white;
+}
+
+#display{
+	height: 30px;
+	width: 200px;
+	padding: 5px;
+	background: #222540;
+	color: white;
+	font-size: 24px;
+	border: 8px solid grey;
+	border-radius: 5px;
+	text-align: right;
+}

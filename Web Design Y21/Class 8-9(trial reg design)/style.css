@@ -1,0 +1,60 @@
+body{
+	margin-left: 120px;
+	margin-right: 120px;
+	font-family: calibri;
+}
+
+#btn1{
+	text-decoration: none;
+	float: right;
+	font-size: 20px;
+	color: blue;
+}
+
+.head1{
+	font-size: 45px;
+	color: navy;
+	text-align: center;
+	margin-bottom: -2px;
+}
+
+.flex{
+	display: flex;
+}
+
+.space{
+	margin-right: 20px;
+}
+
+.box1{
+	width: 260px;
+	height: 25px;
+}
+
+.box2{
+	width: 557px;
+	height: 30px;
+}
+
+.box3{
+	width: 350px;
+	height: 30px;
+}
+
+span{
+	font-size: 18px;
+}
+
+.para1{
+	background: #fadf93;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.btn2{
+	background: #2b71cc;
+	color: white;
+	padding: 7px 15px;
+	border: none;
+	border-radius: 10px;
+}

@@ -1,0 +1,151 @@
+.fullbody{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: calibri;
+}
+
+.flex{
+	display: flex;
+}
+
+.navbar{
+	margin-left: 11cm;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.navbar a{
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 20px;
+	color: black;
+}
+
+.btn1{
+	text-decoration: none;
+	background: midnightblue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 13px;
+}
+
+.btn2{
+	text-decoration: none;
+	background: orangered;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.btn3{
+	text-decoration: none;
+	background: midnightblue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.head1{
+	font-size: 60px;
+	margin-bottom: -20px;
+}
+
+.para1{
+	font-size: 22px;
+	color: dimgray;
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 220px 220px;
+	justify-content: center;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+.grid-container div{
+	background: azure;
+	padding: 10px;
+	text-align: center;
+}
+
+.grid-container a{
+	text-decoration: none;
+	color: orange;
+}
+
+.grid-container2{
+	display: grid;
+	grid-template-columns: 220px 220px;
+	justify-content: center;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+.grid-container2 div{
+	background: #fafafa;
+	padding: 10px;
+	text-align: center;
+}
+
+.box1{
+	width: 240px;
+	height: 20px;
+	padding: 5px;
+}
+
+.box2{
+	width: 500px;
+	height: 20px;
+	padding: 5px;
+}
+
+.btn4{
+	text-decoration: none;
+	background: midnightblue;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 12px;
+	margin-left: 6cm;
+}
+
+.footer{
+	text-align: center;
+	background: url("images/BG.png");
+	font-family: calibri;
+}
+
+.footer h1{
+	font-size: 50px;
+	color: white;
+}
+
+.footer p{
+	color: white;
+}
+
+.btn22{
+	text-decoration: none;
+	background: orange;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+	.flex{
+		display: grid;
+		grid-template-columns: 200px;
+	}
+	.im1{
+		width: 60%;
+	}
+}

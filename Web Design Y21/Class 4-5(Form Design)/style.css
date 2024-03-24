@@ -1,0 +1,43 @@
+body{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	background: url("back3.jpg");
+	background-repeat: no-repeat;
+}
+
+
+.box1{
+	width: 200px;
+	height: 20px;
+	padding: 5px;
+	border: 2px dimgray groove;
+	border-radius: 5px;
+	font-size: 15px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box2{
+	width: 120px;
+	text-align: center;
+	height: 26px;
+	border: 2px lightblue groove;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button{
+	background: linear-gradient(orange, tomato);
+	padding: 6px 15px;
+	border: none;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+button:hover{
+	background: linear-gradient(blue, cyan);
+	padding: 6px 15px;
+	border: none;
+	font-size: 15px;
+	border-radius: 5px;
+}
+

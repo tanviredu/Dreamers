@@ -1,0 +1,32 @@
+body{
+	font-family: Calibri;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 40px;
+}
+
+.box1{
+	width: 240px;
+	height: 20px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+button{
+	background: tomato;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+}
+
+button:hover{
+	background: orangered;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+}

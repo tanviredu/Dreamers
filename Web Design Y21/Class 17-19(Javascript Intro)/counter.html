@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Counter</title>
+	<style type="text/css">
+		span{
+			font-size: 60px;
+			font-family: calibri;
+			background: black;
+			color: gold;
+			padding: 10px 30px;
+			border-radius: 10px;
+		}
+
+		button{
+			background: linear-gradient(tomato,orange);
+			color: black;
+
+			padding: 7px 15px;
+			border-radius: 5px;
+			border: none;
+		}
+
+		button:hover{
+			background: linear-gradient(navy,grey);
+			color: white;
+
+			padding: 7px 15px;
+			border-radius: 5px;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+
+	<div style="text-align: center;">
+
+		<h1 style="font-size: 40px; font-family: calibri; color: lightcoral;">Counter</h1>
+			
+		<br>
+
+		<span id="score">0</span>
+
+		<br><br><br>
+		<button onclick="barao()">Increase</button>
+		<button onclick="reset()">Reset</button>
+		<button onclick="komao()">Decrease</button>
+
+	</div>
+<script type="text/javascript" src="counter.js"></script>
+</body>
+</html>
