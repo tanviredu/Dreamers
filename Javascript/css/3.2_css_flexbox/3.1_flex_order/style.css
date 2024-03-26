@@ -1,0 +1,25 @@
+.flexcontainer{
+	display: flex;
+
+
+.flexitem{
+	border: 5px solid black;
+	padding: 15px;
+	flex-grow: 1;
+	background-color: yellow;
+}
+
+#five{
+	/* this will put it one the last	*/
+	order: 1;
+}
+
+#six{
+	/* this will put after 5	*/
+	order: 1;
+}
+
+#nine{
+	/* this will put at the beginning	*/
+	order: -1;
+}

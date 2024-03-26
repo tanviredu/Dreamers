@@ -1,23 +1,13 @@
+/* flex basis is just like width but in a responsive way. when you setup 
+	flex basis it will start with that value (px,em etc) and when you use
+   flex-grow it will grow from there
 
-/* flex-grow is a number that shows how much it will grow 
-   depending on the exapnd of the screen
- 
-   if we give any specfic flex item another value suppose 2
-   it will grow twice based on the examsion of the other 
-   container
-
-*/
-
-
-/*
-	flex-shirnk does the opposite it gives a ratio of 
-	how much it will shirnk when it window side is shrinked
-
-*/
-
+	
+ */
 
 .flexcontainer{
 	display: flex;
+	border: 2px solid black;
 }
 .flexitem{
 	padding: 1em;
@@ -26,19 +16,20 @@
 	font-weight: bolder;
 	color: #fff;
 	font-style: italic;
-
-	/* if you want to be be filled equally we can do this	*/
 	flex-grow: 1;
 
 
+
 }
+
+
 
 #one{
 	background-color: blue;
+	flex-basis: 10em;
 }
 #two{
 	background-color: yellow;
-	flex-grow: 4;
 }
 #three{
 	background-color: green;

@@ -1,0 +1,81 @@
+/*
+	flex-shirnk does the opposite it gives a ratio of 
+	how much it will shirnk when it window side is shrinked
+
+*/
+
+
+/* flex shirnk does the opposite of the flex grow */
+
+
+
+/*
+	in flex-grow when for available space if any div flex-grow is greater than 1
+	it will stretch according to the ratio of the factor
+
+	but in flex shirnk suppose we give the flex item width higher
+   and and make them flex. so even it is bigger it will fit in the container
+   but if you add flex-shirnk it will shirnk div  and remove the extra space
+*/
+
+
+
+
+
+
+
+
+.flexcontainer{
+	display: flex;
+	border: 2px solid black;
+}
+.flexitem{
+	padding: 1em;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bolder;
+	color: #fff;
+	font-style: italic;
+	width: 15em;
+
+
+
+}
+
+
+/*when we dont use the width we see it only take part of the block 
+	but when we use the width 15em. it will force to grow. but since it is flex
+	every item will grow evenly to allocate it within a container
+	but if we use shirnk it will remove the additional space of the target
+	div .because 15em is a lot and we dont have addtional space. so target will shirnk
+
+ */
+
+#one{
+	background-color: blue;
+	flex-shrink: 2;
+}
+#two{
+	background-color: yellow;
+	flex-shrink: 4;
+}
+#three{
+	background-color: green;
+	flex-shrink: 3;
+}
+#four{
+	background-color: purple;
+}
+#five{
+	background-color: red;
+}
+#six{
+	background-color: cyan;
+}
+#seven{
+	background-color: pink;
+}
+#eight{
+	background-color: yellow;
+}
+

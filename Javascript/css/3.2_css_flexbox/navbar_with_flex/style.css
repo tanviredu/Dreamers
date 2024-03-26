@@ -1,0 +1,49 @@
+ body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #333;
+        color: white;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;      /*
+                                            Since we have two portion in side nav one is logo and one is ul 
+        									we use space-between so it divided into two in the middle even space
+        									 */
+
+        
+        
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+/*        border: 2px solid white;*/
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+/*      border: 2px solid white;*/
+/*      align-items: flex-start;  */
+		align-items: center;  /* it will make it to the center based on height */
+    }
+
+    li {
+        margin-left: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    a:hover {
+        color: #ffd700; /* Change to desired hover color */
+    }

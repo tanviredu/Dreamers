@@ -1,0 +1,35 @@
+
+
+/* justify content will align the content within the 
+   block . it will align left with flex-start
+   right with flex-end and center with center
+ */
+
+/* space-between will make space within the item and evenly 
+   distribute	
+	
+ */
+
+.flexcontainer{
+	display: flex;
+	border: 2px solid black;
+/*	justify-content: flex-start;*/
+/*	justify-content: flex-end;*/
+/*	justify-content: center;*/
+/*	flex-direction: row-reverse;*/
+/*	justify-content: space-between;    */
+/*	height: 30em;*/
+/*	justify-content: flex-end;*/
+/*	justify-content: center;*/
+/*	height: 13em;*/
+/*	align-items: flex-end;*/
+
+
+}
+
+.flexitem{
+	padding: 15px;
+	border: 3px solid red;
+	background: yellow;
+
+}
