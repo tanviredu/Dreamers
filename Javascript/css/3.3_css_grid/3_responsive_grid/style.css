@@ -1,0 +1,26 @@
+.gridcontainer{
+	display: grid;
+	grid: repeat(2, 1fr)/repeat(4, 2fr);
+	height: 40em;
+	width: 40em;
+    border: 2px solid black;
+
+    /*	grid-template-columns: 20em 3fr 2fr 1fr;*/
+    /* when shirnk the first colum will not be responsive	*/
+	/* second third and fourth column will be responsive	*/
+	/* dont need to share the row  it will auto fit*/
+	/* if you want you can do it but it wont take effect	*/
+
+
+}
+
+.griditem{
+	padding: 20px;
+	background-color: lightblue;
+	border: 3px solid blue;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
