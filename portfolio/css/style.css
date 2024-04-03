@@ -1,0 +1,140 @@
+body{
+    background-color: #00101f;
+    color: #e2e8f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    /* border: 5px solid white; */
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+}
+nav ul li a{
+    text-transform: uppercase;
+}
+
+span{
+    color: red;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.pword{
+    font-size: 20px;
+    color: #6c757d;
+}
+
+
+button{
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: tomato;
+    font-weight: bolder;
+}
+
+.halfwidth{
+    padding: 40px;
+}
+
+.projects{
+    padding: 40px;
+}
+
+
+.line {
+    display: flex;
+}
+
+.line2{
+    display: inline-grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+.imgtop{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.halfwidth2{
+    padding: 40px;
+}
+
+
+.primg{   
+    height: auto;
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+.ptext {
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+/* small device */
+@media (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
