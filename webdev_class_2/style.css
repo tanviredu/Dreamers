@@ -1,0 +1,30 @@
+.center{
+	text-align: center;
+}
+
+.head1{
+	font-size: 50px;
+	color: red;
+}
+
+.head1:hover{
+	font-size: 70px;
+	color: blue;
+	border: 5px red solid;
+}
+
+.para{
+	border: 4px solid black;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 140px;
+	padding: 50px;
+	font-size: 20px;
+	color: gold;
+	background-color: black;
+	margin-bottom: 40px;
+}
+
+.myimage{
+	margin-bottom: 20px;
+}
