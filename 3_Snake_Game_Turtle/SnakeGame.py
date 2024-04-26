@@ -83,12 +83,8 @@ while True:
         head.goto(0,0)
         head.direction = "right"
         
-        ## just throw each element out 
-        ## of the window
-        for bodyelement in snake_body:
-            bodyelement.goto(1000,1000)
         
-        #snake_body = []
+        
 
     if head.distance(food) < 20 :
         x = random.randint(-270,270)
