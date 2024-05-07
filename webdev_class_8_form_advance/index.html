@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CL8-FORM-TICKET-BOOK </title>
+	</head>
+	<body>
+		<style>
+			body{
+				font-family: monospace;
+				background: url("./back3.jpg");
+				background-repeat: no-repeat;
+			}
+			.box1{
+				width: 200px;
+				height: 30px;
+				border: 2px solid grey;
+				border-radius: 5px;
+				font-size: 15px;
+				box-shadow:5px 5px 5px grey;
+				text-align: center;
+
+			}
+			.outercontainer{
+				width: 100%;
+				margin-top: 10px;
+			}
+			.innercontainer{
+				width: 50%;
+				margin: auto;
+				padding: 20px;
+				border: 3px solid blue;
+				text-align: center;
+				font-size: 20px;
+			}
+
+			.myin{
+				width: 340px;
+				height: 20px;
+				padding: 5px;
+				border: 2px solid black;
+				border-radius: 5px;
+				font-size: 20px;
+			}
+
+			.mybutton{
+				padding: 10px 25px;
+				border: none;
+				color: white;
+				font-size: 15px;
+				border-radius: 5px;
+				background: linear-gradient(red,blue);
+			}
+
+			.mybutton:hover{
+				padding: 10px 25px;
+				border: none;
+				color: white;
+				font-size: 15px;
+				border-radius: 5px;
+				background: linear-gradient(blue,cyan);
+			}
+
+
+		</style>
+
+		<div class="outercontainer">
+
+			<div class="innercontainer">
+				<img  src="./logo.png" width="50%">
+		
+				<h1>Air Ticket Booking</h1>
+					<form class="myform">
+						
+						<input class="myin" type="text" placeholder="First Name"><br><br>
+						
+						<input class="myin" type="text" placeholder="Last Name"><br><br>
+						
+						<input class="myin" type="email" placeholder="Email"><br><br>
+						
+						<input class="myin" type="password" placeholder="Password"><br><br>
+						
+						<input class="myin" type="number" placeholder="Contact"><br><br>
+						<br>
+						<h3>Gender</h3>
+						<input type="radio" name="Gender" value="male">
+						<label>Male</label>
+						<input type="radio" name="Gender" value="female">
+						<label>Female</label>
+
+						<br>
+
+						<h3> Choose Meal (Any Three) </h3>
+						<input type="checkbox" name="meal" value="rice">
+						<label>Rice</label>
+						<input type="checkbox" name="meal" value="beef">
+						<label>Beef</label>
+						<input type="checkbox" name="meal" value="chicken">
+						<label>Chicken</label>
+						<input type="checkbox" name="meal" value="pepsi">
+						<label>Pepsi</label>
+						<input type="checkbox" name="meal" value="sprite">
+						<label>Sprite</label>
+						<br>
+						<br>
+
+						<h3> Boarding From </h3>
+						<select class="box1">
+							<option> Choose </option>
+							<option value="1">Dhaka</option>
+							<option value="2">Chttagong</option>
+							<option value="3">Sylhet</option>
+							<option value="4">Jessore</option>
+							<option value="5">Saidpur</option>
+							<option value="6">Cox Bazar</option>
+							<option value="7">Barisal</option>
+						</select>
+
+						<h3> Destination  </h3>
+						<select class="box1">
+							<option> Choose </option>
+							<option value="1">Dhaka</option>
+							<option value="2">Chttagong</option>
+							<option value="3">Sylhet</option>
+							<option value="4">Jessore</option>
+							<option value="5">Saidpur</option>
+							<option value="6">Cox Bazar</option>
+							<option value="7">Barisal</option>
+						</select>
+						<br>
+						<br>
+
+						<button class="mybutton">Submit</button>
+					</form>
+				</div>
+			</div>
+	</body>
+</html>
