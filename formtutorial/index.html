@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<style>
+		input{
+			border-radius: 10px;
+			
+		}
+		input:valid{
+			border-color: green;
+		}
+		input:invalid{
+			border-color: red;
+		}
+		
+		input:focus:invalid{
+			border-color: black;
+		}
+		input:required{
+			border-style: dashed;
+		}
+
+		textarea:required{
+			border-style: dashed;
+		}
+
+
+		fieldset{
+			border: 5px solid red;
+		}
+		legend{
+			color: purple;
+			font-weight: bolder;
+		}
+
+		label{
+			display: block;
+		}
+
+
+	</style>
+
+	<form action="contact.html" method="POST" action="contct.html" enctype="application/x-www-form-urlencoded">
+		<fieldset>
+			<legend>Contact</legend>
+			<label>
+			Your name: <input required type="text" name="customerName">
+			</label>
+			<br>
+			<label>
+			Your phone: <input required minlength="4" maxlength="10" type="tel" name="customerPhone">
+			</label>
+			<br>
+			<label>
+			Phone Type:
+			</label>
+			<br>
+
+			<label><input type="radio" name="phoneType" value="cell">Cell</label>
+			<label><input type="radio" name="phoneType" value="home">Home</label>
+			<label><input type="radio" name="phoneType" value="work"> Work</label>
+			<br>
+			<label>Your email: <input type="email" name="customerEmail"></label>
+			<br>
+		</fieldset>
+		
+		<input type="hidden" name="hiddeninput">
+		<br>
+
+		<fieldset>
+			<legend>FeedBack</legend>
+			Severity : <input type="number" min="1" max="5" name="severity">
+			<br>
+			Feedback Type : <select name="feedbackType" >
+				<optgroup label="Store" >
+					<option value="webstore">Webstore</option>
+					<option value="store">Store</option>
+				</optgroup>
+				<optgroup label="Tech" >
+					<option value="webtech">Webtech</option>
+				</optgroup>
+				<option value="generel">General</option>
+			</select>
+
+			<!-- Feedback Type : <select name="feedbackType" multiple="multiple" size="6">
+				<optgroup label="Store" >
+					<option value="webstore">Webstore</option>
+					<option value="store">Store</option>
+				</optgroup>
+				<optgroup label="Tech" >
+					<option value="webtech">Webtech</option>
+				</optgroup>
+				<option value="generel">General</option>
+			</select> -->
+			Severity Range : <input type="range" min="1" max="5" name="severity">
+			<br>
+			issueDate : <input type="date" name="severity">
+			<br>
+			issueTime : <input type="time" name="severity">
+			<br>
+			Your Feedback :
+			<br>
+			<textarea required cols="40" rows="3" name="feedback"></textarea>
+			<br>
+			Ok To Contact me :
+			<input type="checkbox" name="bycontact" value="phone"> Byphone
+			<input type="checkbox" name="bycontact" value="email"> Byemail
+			<br>
+		</fieldset>
+		<input type="submit" name="sendContact">
+
+
+	</form>	
+</body>
+</html>
