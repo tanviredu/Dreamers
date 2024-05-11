@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM PROJECT</title>
+</head>
+<body>
+	<style>
+		#myForm{
+			
+			font-size: 20px;
+			font-family: monospace;
+
+		}
+		.outercontainer{
+			width: 100%;
+			margin-top: 40px;
+		}
+
+		.innercontainer{
+			margin: auto;
+			border: 3px solid black;
+			width: 40%;
+			padding: 30px;
+			text-align: center;
+			
+		}
+		#datatable{
+			text-align: center;
+			margin: auto;
+			border: 3px solid black;
+			border-collapse: collapse;
+		}
+
+		#datatable th, #datatable td{
+			border: 1px solid black;
+			padding: 20px;
+		}
+		#datatable th{
+			background-color: green;
+			color: white;
+		}
+		#datatable td{
+			background-color: lightgray;
+		}
+	</style>
+	<div class="outercontainer">
+		<div class="innercontainer">
+			<form id="myForm">
+		    	<label for="name">Name:</label>
+		    	<input type="text" id="name" name="name"><br><br>
+		    	<label for="roll">Roll:</label>
+		    	<input type="text" id="roll" name="roll"><br><br>
+		    	<label for="result">Result:</label>
+		    	<input type="text" id="result" name="result"><br><br>
+		    	<button type="button" onclick="addToTable()">Add to Table</button>
+		  </form>
+		  <br>
+		  <br>
+			<table id="datatable">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Roll</th>
+						<th>Result</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+
+	<script>
+	  function addToTable() {
+      	var name = document.getElementById("name").value;
+      	var roll = document.getElementById("roll").value;
+      	var result = document.getElementById("result").value;
+      	var table = document.getElementById("datatable").getElementsByTagName('tbody')[0];
+        var newRow = table.insertRow();
+        var namecell = newRow.insertCell(0);
+        var rollcell = newRow.insertCell(1);
+        var resultcell = newRow.insertCell(2);
+
+        namecell.textContent = name;
+        rollcell.textContent = roll;
+        resultcell.textContent = result;
+
+      }
+	</script>
+</body>
+</html>
